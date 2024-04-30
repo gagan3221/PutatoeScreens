@@ -37,7 +37,7 @@ import com.example.putatoemain.R
 fun HomeScreen(){
     var query by remember { mutableStateOf("Search") }
     Scaffold(topBar = {
-        "TopAppBarView()"
+        TopAppBarView()
     },
         floatingActionButton = {
             FloatingActionButton(onClick = { /*TODO*/ }){
